@@ -1,0 +1,70 @@
+* {
+	font-family: "Roboto", sans-serif;  
+}  
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;  
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+ 
+ #dog {
+ 	color: red;
+ }
+ .dog {
+ 	color: red;
+ }
+  /* # pound sign is for the id*/
+ #landing {
+ 	/*viewport height (vh)- measures the height percentage of the device you are viewing your webpage in*/
+ 	height: 80vh;
+
+ 	display: flex; /* display flex - arranges elements inside the parent element, align vertical or horizontal direction*/
+
+ 		flex-direction: column; /*directs the elements inside display: flex*/
+ 		align-items: center;	/*align-items - centering elements horizontally if flex direction is in column*/
+ 		justify-content: center; /*centering elements vertically if flex direction is in column*/
+ }
+
+ /*period sign is for the class */
+ .jumbotron {
+ 	background-color: pink;
+ }
+
+ #gallery {
+
+ 	display: flex; 
+ 		flex-direction: column; 
+ 		align-items: center;	
+ 		justify-content: center; 
+ 		height: 55vh;
+ 		border-radius: 10px; /*for rounded corner borders */
+ }
+
+ul {
+	list-style: none; /*to remove bullet points*/
+	padding: 0; /* para matanggal ung spaces sa gitna called padding */
+}
+
+h2 {
+	/*hex for a more specified color */
+	color: #fc0303;
+}
+
+.tools {
+	/* line around the element*/
+	border: 5px solid #f2f2f2;
+	margin: 15px; /*spaces outside the element*/
+	padding: 25px; /*spaces inside the element*/
+	height: 200px;
+	width: 75%; /*based on thetotal width of the parent element*/
+	color: white;
+}
+
+
+html {
+	scroll-behavior: smooth; /*para parang hindi nag snap ung links sa nav bar, smoot ang transition*/
+}
